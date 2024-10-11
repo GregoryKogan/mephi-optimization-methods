@@ -72,7 +72,8 @@ $endif$
 $for(classoption)$
   $classoption$$sep$,
 $endfor$
-  ,captions=tableheading
+  fleqn,
+  captions=tableheading
 ]{$if(beamer)$$documentclass$$else$$if(documentclass)$$documentclass$$else$scrartcl$endif$$endif$}
 $if(beamer)$
 $if(background-image)$
@@ -1032,8 +1033,8 @@ $if(titlepage)$
       \begin{center}
         Министерство науки и высшего образования Российской Федерации\\
         \hfill \break
-        ФЕДЕРАЛЬНОЕ ГОСУДАРСТВЕННОЕ АВТОНОМНОЕ ОБРАЗОВАТЕЛЬНОЕ \\ УЧРЕЖДЕНИЕ ВЫСШЕГО ОБРАЗОВАНИЯ \\
-        ИНСТИТУТ РАЗДОЛБАЙСТВА \\ (НИЯУ МИФИ) \\
+        ФЕДЕРАЛЬНОЕ ГОСУДАРСТВЕННОЕ АВТОНОМНОЕ ОБРАЗОВАТЕЛЬНОЕ УЧРЕЖДЕНИЕ \\ ВЫСШЕГО ОБРАЗОВАНИЯ \\
+        Национальный исследовательский ядерный университет «МИФИ» \\ (НИЯУ МИФИ) \\
         
         \hfill \break
         ИНСТИТУТ ИНТЕЛЛЕКТУАЛЬНЫХ КИБЕРНЕТИЧЕСКИХ СИСТЕМ \\
@@ -1053,10 +1054,10 @@ $if(titlepage)$
         
       \begin{flushright}
       Выполнил:\\
-      Студент группы 12345\\
+      Студент группы Б22-534\\
       \textsf{$for(author)$$author$$sep$, $endfor$}\\
-      Преподаватель:\\
-      Иванов И. И.\\
+      \vspace{1cm}
+      Вариант №57\\
       \end{flushright}
         
       \vfill

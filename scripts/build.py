@@ -7,10 +7,6 @@ from image_optimizer import optimize_images
 # Change the current working directory to the root of the project
 os.chdir(os.path.join(os.path.dirname(__file__), ".."))
 
-# Recursively remove out directory and then create it again
-shutil.rmtree("out", ignore_errors=True)
-os.makedirs("out", exist_ok=True)
-
 # Recursively remove temporary directory and then create it again
 shutil.rmtree("tmp", ignore_errors=True)
 os.makedirs("tmp", exist_ok=True)
