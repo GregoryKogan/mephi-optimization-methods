@@ -100,3 +100,73 @@ x_2=\frac{16}{3}
 F(x_1, x_2)=2\cdot\frac{10}{3}+\frac{16}{3}=12 - \max\\
 \end{aligned}
 $$
+
+## (b)
+
+$$
+\begin{aligned}
+&F = 2x_1 + 7x_2 \rightarrow \max(\min)\\
+&\begin{cases}
+2x_1+x_2\geq6\\
+3x_1-x_2\leq9
+\end{cases}
+x_1\geq0,\quad x_2\geq0
+\end{aligned}
+$$
+
+Записываем в канонической форме:
+
+$$
+\begin{aligned}
+&\begin{cases}
+2x_1+x_2-x_3=6\\
+3x_1 - x_2+x_4=9
+\end{cases}
+x_i \geq 0, \quad i=1..4
+\end{aligned}
+$$
+
+$$
+\begin{aligned}
+&A_1 = \begin{pmatrix} 2 \\ 3 \end{pmatrix} \quad
+A_2 = \begin{pmatrix} 1 \\ -1 \end{pmatrix} \quad
+A_3 = \begin{pmatrix} -1 \\ 0 \end{pmatrix} \quad
+A_4 = \begin{pmatrix} 0 \\ 1 \end{pmatrix} \quad\\
+&\text{Начальный базис:} (A_3, A_4)
+\end{aligned}
+$$
+
+## (c)
+
+$$
+\begin{aligned}
+&F = -2x_1+5x_2 \rightarrow \max(\min)\\
+&\begin{cases}
+2x_1+x_2 \geq 4 \\
+x_1 - 4x_2 \geq 8
+\end{cases}
+x_1 \geq 0, \quad x_2 \geq 0
+\end{aligned}
+$$
+
+Записываем в канонической форме:
+
+$$
+\begin{aligned}
+&\begin{cases}
+2x_1+x_2-x_3=4\\
+x_1 - 4x_2-x_4=8
+\end{cases}
+x_i \geq 0, \quad i=1..4
+\end{aligned}
+$$
+
+$$
+\begin{aligned}
+&A_1 = \begin{pmatrix} 2 \\ 1 \end{pmatrix} \quad
+A_2 = \begin{pmatrix} 1 \\ -4 \end{pmatrix} \quad
+A_3 = \begin{pmatrix} -1 \\ 0 \end{pmatrix} \quad
+A_4 = \begin{pmatrix} 0 \\ -1 \end{pmatrix} \quad\\
+&\text{Начальный базис:} (A_3, A_4)
+\end{aligned}
+$$
