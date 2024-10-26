@@ -3,7 +3,7 @@
 Найти решение задачи линейного программирования геометрически для "а, в, с" на max и min.  
 _Графики построены с помощью [www.geogebra.org](www.geogebra.org)_
 
-## (a)
+## Пункт (a)
 
 $$
 \begin{aligned}
@@ -30,7 +30,7 @@ $$
 
 ![](tmp/images/1-a.jpg){ width=50% }
 
-## (b)
+## Пункт (b)
 
 $$
 \begin{aligned}
@@ -58,7 +58,7 @@ $$
 
 ![](tmp/images/1-b.jpg){ width=50% }
 
-## (c)
+## Пункт (c)
 
 $$
 \begin{aligned}
