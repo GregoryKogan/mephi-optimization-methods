@@ -45,6 +45,8 @@ $$
 \end{aligned}
 $$
 
+_График построен с помощью [www.geogebra.org](www.geogebra.org)_
+
 ![](tmp/images/3-a.jpg){ width=50% }
 
 #### Симплекс-метод
