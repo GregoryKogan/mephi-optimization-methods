@@ -144,8 +144,7 @@ $$
 $$
 
 Берём из таблицы векторы, вошедшие в базис: $A_B = \begin{pmatrix} \frac{4}{3} & \frac{1}{3} \\ \frac{1}{3} & \frac{1}{3} \end{pmatrix}$.  
-Находим обратную матрицу: $A^{-1}_B =  \begin{pmatrix} \frac{4}{3} & \frac{1}{3} \\ \frac{1}{3} & \frac{1}{3} \end{pmatrix}^{-1} = \begin{pmatrix} 1 & -1 \\ -1 & 4 \end{pmatrix}$.  
-По теореме находим $y^{*}$:
+Находим обратную матрицу: $A^{-1}_B =  \begin{pmatrix} \frac{4}{3} & \frac{1}{3} \\ \frac{1}{3} & \frac{1}{3} \end{pmatrix}^{-1} = \begin{pmatrix} 1 & -1 \\ -1 & 4 \end{pmatrix}$.
 
 $$
 y^{*} = \begin{pmatrix}8 & 2\end{pmatrix} \cdot \begin{pmatrix} 1 & -1 \\ -1 & 4 \end{pmatrix} = \begin{pmatrix} 6 & 0 \end{pmatrix}

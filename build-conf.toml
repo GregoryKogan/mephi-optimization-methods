@@ -33,8 +33,8 @@ lang   = "ru"
 [metadata.layout]
 # block-headings = true                                                      # изменяет поведение заголовков, см. документацию т.к. есть подводные камни
 # classoption = "a4paper, 12pt, ..."                                         # опции класса документа
-documentclass = "scrreprt"                                                 # параметр класса документа(scrartcl, scrbook или scrreprt), если book или report(scrbook или scrreport), то включить параметр book 
-geometry      = "left=1cm, right=1cm, top=2cm, bottom=1cm, footskip=0.5cm" # поля страницы
+documentclass = "scrreprt"                                               # параметр класса документа(scrartcl, scrbook или scrreprt), если book или report(scrbook или scrreport), то включить параметр book 
+geometry      = "left=1cm, right=1cm, top=2cm, bottom=2cm, footskip=1cm" # поля страницы
 # hyperrefoptions = "linktoc=all, pdfwindowui, pdfpagemode=FullScreen, ..."  # опции гиперссылок
 indent      = true # отступы в абзацах
 linestretch = 1.2  # межстрочный интервал
