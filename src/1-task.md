@@ -1,11 +1,16 @@
-# Задание №1
+# Задание №1 - Геометрическое решение
 
-_Вариант №57_
+## Условие
 
-Найти решение задачи линейного программирования геометрически для "а, в, с" на max и min.  
-_Графики построены с помощью [www.geogebra.org](www.geogebra.org)_
+**Вариант №57**
 
-## Пункт (a)
+Найти решение задачи линейного программирования геометрически[^1] для "а, в, с" на max и min.
+
+[^1]: _Графики построены с помощью [www.geogebra.org](www.geogebra.org)_
+
+## a
+
+![](tmp/images/1-a.jpg){ width=50% }
 
 $$
 \begin{aligned}
@@ -30,9 +35,9 @@ x_1 \geq 0, \quad x_2 \geq 0 \\
 \end{aligned}
 $$
 
-![](tmp/images/1-a.jpg){ width=50% }
+## b
 
-## Пункт (b)
+![](tmp/images/1-b.jpg){ width=50% }
 
 $$
 \begin{aligned}
@@ -58,9 +63,9 @@ x_1\geq0,\quad x_2\geq0\\
 \end{aligned}
 $$
 
-![](tmp/images/1-b.jpg){ width=50% }
+## c
 
-## Пункт (c)
+![](tmp/images/1-c.jpg){ width=50% }
 
 $$
 \begin{aligned}
@@ -87,5 +92,3 @@ x_1 \geq 0, \quad x_2 \geq 0 \\
 &F \text{ не ограничено снизу} \Rightarrow \text{нет решения для } \min
 \end{aligned}
 $$
-
-![](tmp/images/1-c.jpg){ width=50% }
