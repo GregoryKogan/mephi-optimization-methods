@@ -119,8 +119,8 @@ titlepage-text-color = "000000" # цвет текста на титульной 
 # titlepage-rule-color = "000000"           # цвет линии на титульной странице
 titlepage-rule-height = -1 # высота линии на титульной странице
 # titlepage-background = "titlepage.pdf"    # фон для титульной страницы
-titlepage-logo = "logo.jpeg" # логотип для титульной страницы
-logo-width     = "35mm"      # ширина логотипа
+titlepage-logo = "logo.jpg" # логотип для титульной страницы
+logo-width     = "35mm"     # ширина логотипа
 
 [metadata.template.page-background]
 # page-background = "page-background.pdf"   # фон для всех страниц
