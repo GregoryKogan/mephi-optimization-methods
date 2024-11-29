@@ -405,3 +405,77 @@ X = \begin{pmatrix}
     0 & 150 & 0 & 50
 \end{pmatrix}
 $$
+
+## Решение с помощью Python
+
+```python
+from cvxopt.modeling import variable, op
+import time
+
+start_time = time.time()
+
+# Variables
+x = variable(20, 'x')
+
+# Tariff
+c = [
+    2, 4, 3, 2,
+    3, 1, 2, 3,
+    1, 2, 1, 4,
+    3, 3, 2, 1,
+    4, 2, 3, 2,
+]
+
+# Objective function
+z = sum(c[i] * x[i] for i in range(20))
+
+# Constraints
+supply = [15, 75, 150, 175, 200]
+demand = [200, 190, 75, 150]
+
+constraints = []
+for i in range(5):
+    constraints.append(sum(x[i * 4 + j] for j in range(4)) <= supply[i])
+for j in range(4):
+    constraints.append(sum(x[i * 4 + j] for i in range(5)) == demand[j])
+
+x_non_negative = (x >= 0)
+constraints.append(x_non_negative)
+
+# Problem
+problem = op(z, constraints)
+
+# Solve
+problem.solve(solver='glpk')
+
+# Results
+print("Xopt:")
+for i in range(5):
+    for j in range(4):
+        print(x.value[i * 4 + j], end='\t')
+    print()
+
+print(f'Total cost: {problem.objective.value()[0]}')
+print(f'took: {round(time.time() - start_time, 3)} seconds')
+```
+
+### Вывод
+
+```plaintext
+GLPK Simplex Optimizer 5.0
+29 rows, 20 columns, 60 non-zeros
+      0: obj =   0.000000000e+00 inf =   6.150e+02 (4)
+      8: obj =   1.395000000e+03 inf =   0.000e+00 (0)
+*    20: obj =   9.750000000e+02 inf =   0.000e+00 (0)
+OPTIMAL LP SOLUTION FOUND
+Xopt:
+15.0	0.0	0.0	0.0
+0.0	75.0	0.0	0.0
+150.0	0.0	0.0	0.0
+35.0	0.0	75.0	65.0
+0.0	115.0	0.0	85.0
+Total cost: 975.0
+took: 0.012 seconds
+```
+
+Результаты, полученные с помощью библиотеки `cvxopt`, совпадают с результатами, полученными вручную.
