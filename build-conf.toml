@@ -170,6 +170,8 @@ header-includes = '''
 header-includes: |
     \usepackage[utf8]{inputenc}
     \usepackage[normalem]{ulem}
+    \usepackage{diagbox}
+    \usepackage{cancel}
 ''' # Дополнительные включения в заголовок LaTeX
 
 # Протестированные включения
