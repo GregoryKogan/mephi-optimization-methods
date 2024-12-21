@@ -136,8 +136,8 @@ toc-own-page = true # оглавление на отдельной страни�
 # table-use-row-colors = true               # использовать цвета строк в таблицах
 
 [metadata.template.listings]
-listings-no-page-break        = true # запрет разрыва страниц в блоках кода
-listings-disable-line-numbers = true # отключение нумерации строк в блоках кода
+listings-no-page-break        = false # запрет разрыва страниц в блоках кода
+listings-disable-line-numbers = true  # отключение нумерации строк в блоках кода
 # code-block-font-size = "footnotesize"     # размер шрифта в блоках кода
 
 [metadata.template.caption]
