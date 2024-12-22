@@ -152,12 +152,12 @@ footnotes-pretty = true # настройка сносок
 # disable-header-and-footer = true          # отключение колонтитулов
 
 [metadata.template.header]
-header-left   = '' # левый верхний колонтитул: номер страницы
+header-left   = '\theauthor\ Б22-534' # левый верхний колонтитул: номер страницы
 header-center = '' # центральный верхний колонтитул: пустой
 header-right  = '' # правый верхний колонтитул: текущий раздел
 
 [metadata.template.footer]
-footer-left   = ''         # левый нижний колонтитул: пустой
+footer-left   = '\thetitle'         # левый нижний колонтитул: пустой
 footer-center = ''         # центральный нижний колонтитул: пустой
 footer-right  = '\thepage' # правый нижний колонтитул: номер страницы
 
