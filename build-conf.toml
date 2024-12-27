@@ -54,6 +54,9 @@ papersize = "a4"    # размер бумаги (a4, letter, ...)
 # fontenc = "T1"                   # кодировка шрифта
 # fontfamily = "libertinus"        # семейство шрифтов для использования с pdflatex
 # fontfamilyoptions = "osf, p, sc" # опции fontfamily
+mainfont = "Times New Roman"
+sansfont = "Times New Roman"
+monofont = "JetBrainsMono Nerd Font"
 fontsize = "12pt" # размер шрифта для body text
 
 # mainfont = true                   #
