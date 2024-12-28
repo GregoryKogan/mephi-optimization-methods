@@ -18,7 +18,7 @@ args = [
     # "--citeproc",                                             # включить обработку цитирований, нужно указать bibliography
 ]
 src = ["*.md"]
-out-name = "output.pdf"
+out-name = "Когановский_Б22-534.pdf"
 
 [metadata.general]
 title = "Отчет по курсу «Методы оптимизации»"
