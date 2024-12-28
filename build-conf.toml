@@ -57,6 +57,7 @@ papersize = "a4"    # размер бумаги (a4, letter, ...)
 mainfont = "Times New Roman"
 sansfont = "Times New Roman"
 monofont = "JetBrainsMono Nerd Font"
+monofontoptions = "Scale=1.0"
 fontsize = "12pt" # размер шрифта для body text
 
 # mainfont = true                   #
@@ -175,6 +176,7 @@ header-includes: |
     \usepackage[normalem]{ulem}
     \usepackage{diagbox}
     \usepackage{cancel}
+    \usepackage{tikz}
 ''' # Дополнительные включения в заголовок LaTeX
 
 # Протестированные включения
